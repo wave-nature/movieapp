@@ -1,0 +1,44 @@
+.movie__card {
+  height: 28rem;
+  width: 18rem;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 7px 5px 10px rgb(216, 211, 211, 0.2);
+  margin-bottom: 2rem;
+}
+
+.movie__card-img img {
+  height: 15rem;
+  width: 100%;
+}
+
+.movie__name {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.movie__details {
+  padding: 0.4rem 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie__details_releasedate {
+  font-weight: 300;
+  color: #666;
+}
+.movie__details_ratings {
+  font-weight: 800;
+  color: rgb(89, 0, 255);
+  font-size: 1.5rem;
+}
+.movie__details_btn {
+  text-decoration: none;
+  position: absolute;
+  left: 1rem;
+  width: 90%;
+  text-align: center;
+}

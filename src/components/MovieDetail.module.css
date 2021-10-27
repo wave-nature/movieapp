@@ -1,0 +1,88 @@
+.movieDetail {
+  width: 100%;
+}
+.movieDetail figure {
+  width: 100%;
+  height: 30rem;
+  margin: 0;
+  padding: 0;
+}
+.movieDetail figure img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.movieDetail h2 {
+  font-size: 1.5rem;
+  transform: translateY(-8rem);
+  color: #fff;
+  text-align: center;
+}
+
+.movieDetail figcaption {
+  display: flex;
+  transform: translateY(-7rem);
+  color: #fff;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.aboutMovie {
+  background-color: #fff;
+  height: 60rem;
+  border-radius: 15px;
+  margin-top: -1rem;
+}
+.movieStatus {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.movieStatus__released {
+  color: green;
+}
+.movieStatus__revenue {
+  color: blue;
+}
+.movieStatus__runtime {
+  color: rgb(255, 102, 0);
+}
+.productionHouse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.productionHouse img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.languageSpoken {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.languageSpoken span {
+  color: #222;
+  font-weight: bold;
+}
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem;
+}
+.description p {
+  width: 100%;
+  font-size: 1rem;
+  color: rgb(54, 37, 37);
+  overflow-x: auto;
+}

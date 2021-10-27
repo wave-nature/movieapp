@@ -1,0 +1,15 @@
+.movies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.movies__sort {
+  margin: 1rem 2rem;
+  align-self: flex-start;
+}
+.loadMoreMovies {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
